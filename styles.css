@@ -26,6 +26,7 @@ header h1 {
   text-align: center;
   font-size: 90px;
   text-shadow: 3px 2px 2px #4dcbc2;
+  border-bottom: #ffffff 1px solid;
 }
 
 nav {
@@ -81,82 +82,142 @@ button:hover {
 
 /*Start-Index*/
 .index-head h2 {
-  font-size: 80px;
   text-align: center;
-  color: #ffffff;
-  background-color: black;
-  padding-bottom: 20px;
-  border-bottom: #ffffff 1px solid;
-  border-top: #ffffff 1px solid;
+  color: white;
+  font-size: 75px;
   text-shadow: 3px 2px 2px #4dcbc2;
 }
-
-.index-head p {
-  color: #ffffff;
-  font-size: 50px;
-  padding-bottom: 100px;
+.index-top {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.index-middle {
+  margin-top: 35px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.index-bottom {
+  margin-top: 35px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.index-left {
+  margin-top: 30px;
+  margin-right: 35px;
+  padding: 20px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.61);
+  box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.548);
 }
 
+.index-center {
+  margin-top: 30px;
+  margin-left: 35px;
+  padding: 20px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.61);
+  box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.548);
+}
+
+.index-right {
+  margin-top: 30px;
+  margin-left: 35px;
+  padding: 20px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.61);
+  box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.548);
+}
+.index-left img {
+  height: 300px;
+  width: 500px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.466);
+}
+.index-center img {
+  height: 300px;
+  width: 500px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.466);
+}
+.index-right img {
+  height: 300px;
+  width: 500px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.466);
+}
+
+.index-top h2 button {
+  color: #f6f6f8;
+  font-size: 50px;
+  margin-top: 20px;
+  padding: 20px 30px;
+  background-color: #4dcbc386;
+  box-shadow: 10px 20px 50px rgba(0, 0, 0, 0.727);
+  text-shadow: 10px 20px 50px rgba(0, 0, 0, 0.727);
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  border: none;
+  width: 500px;
+  cursor: pointer;
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.466);
+}
+.index-bottom h2 button {
+  color: #f6f6f8;
+  font-size: 50px;
+  margin-top: 20px;
+  padding: 20px 30px;
+  background-color: #4dcbc386;
+  box-shadow: 10px 20px 50px rgba(0, 0, 0, 0.727);
+  text-shadow: 10px 20px 50px rgba(0, 0, 0, 0.727);
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  border: none;
+  width: 500px;
+  cursor: pointer;
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.466);
+}
+.index-middle h2 button {
+  color: #f6f6f8;
+  font-size: 50px;
+  margin-top: 20px;
+  padding: 20px 30px;
+  background-color: #4dcbc386;
+  box-shadow: 10px 20px 50px rgba(0, 0, 0, 0.727);
+  text-shadow: 10px 20px 50px rgba(0, 0, 0, 0.727);
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  border: none;
+  width: 500px;
+  cursor: pointer;
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.466);
+}
+.index-top h2 button:hover {
+  transform: scale(1.2);
+}
+.index-bottom h2 button:hover {
+  transform: scale(1.2);
+}
+.index-middle h2 button:hover {
+  transform: scale(1.2);
+}
 .index-background {
   text-align: center;
   align-items: contain;
   justify-content: center;
   justify-content: space-evenly;
   background-color: black;
-}
-
-.index-left {
-  background-color: rgb(0, 0, 0);
-}
-
-.index-left h2 {
-  font-size: 50px;
-  font-family: "Times New Roman", Times, serif;
-  font-weight: bold;
-  color: #ffffff;
-  border-bottom: #ffffff 1px solid;
-}
-
-.index-left p {
-  color: #ffffff;
-  font-size: 25px;
-  padding-bottom: 100px;
-}
-
-.index-middle {
-  background-color: rgb(0, 0, 0);
-}
-
-.index-middle h2 {
-  font-size: 50px;
-  font-family: "Times New Roman", Times, serif;
-  font-weight: bold;
-  color: #ffffff;
-  border-bottom: #ffffff 1px solid;
-}
-
-.index-middle p {
-  color: #ffffff;
-  font-size: 25px;
-  padding-bottom: 100px;
-}
-
-.index-right {
-  background-color: rgb(0, 0, 0);
-}
-
-.index-right h2 {
-  font-size: 50px;
-  font-family: "Times New Roman", Times, serif;
-  font-weight: bold;
-  color: #ffffff;
-  border-bottom: #ffffff 1px solid;
-}
-
-.index-right p {
-  color: #ffffff;
-  font-size: 25px;
 }
 
 .gallery {
