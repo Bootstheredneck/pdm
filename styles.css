@@ -219,14 +219,13 @@ button:hover {
 
 .gallery {
   margin: 5px;
-  border: 1px solid #ccc;
-  display: inline-flex;
+  border: 2px solid #ccc;
   width: 500px;
   margin-left: 70px;
 }
 
 .gallery:hover {
-  border: 1px solid #777;
+  border: 2px solid #4dcbc3;
 }
 
 .gallery img {
