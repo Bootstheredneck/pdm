@@ -222,6 +222,7 @@ button:hover {
   border: 2px solid #ccc;
   width: 500px;
   margin-left: 70px;
+  display: inline-block;
 }
 
 .gallery:hover {
@@ -229,8 +230,8 @@ button:hover {
 }
 
 .gallery img {
-  width: 100%;
-  height: auto;
+  width: 500px;
+  height: 300px;
 }
 
 .gallery h3 {
@@ -247,11 +248,12 @@ button:hover {
 
 /*Start-Footer*/
 
-.qwc {
+.footer-credit {
   text-align: center;
   padding-top: 50px;
   color: #f6f6f8;
   text-shadow: 3px 2px 2px #4dcbc2;
+  margin-bottom: 30px;
 }
 /*End-Footer*/
 
