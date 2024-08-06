@@ -21,9 +21,19 @@ header img {
 }
 
 header h1 {
-  color: rgb(255, 255, 255);
+  background: -webkit-linear-gradient(
+    #02609d,
+    #007cb0,
+    #00b2c0,
+    #4dcbc2,
+    #4dcbc2,
+    #02609d,
+    #007cb0,
+    #00b2c0
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
   font-size: 90px;
-  text-shadow: 3px 2px 2px #4dcbc2;
 }
 
 nav {
